@@ -1,0 +1,9 @@
+@media screen and (max-width: 850px) {
+  .section-landing,
+  .section-features,
+  .section-start {
+    img {
+      display: none;
+    }
+  }
+}

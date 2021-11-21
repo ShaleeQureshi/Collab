@@ -1,0 +1,92 @@
+$fontBold: Ubuntu-Bold;
+$fontLight: Ubuntu-Light;
+$fontRegular: Ubuntu-Regular;
+
+$Purple: #6c63ff;
+
+.wrapper {
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.navigation {
+  padding: 10px 25px 10px;
+  a {
+    text-decoration: none;
+  }
+}
+
+.footer {
+  background-color: #191919;
+  p {
+    margin: auto;
+    color: white;
+    opacity: 0.5;
+    padding: 0px 50px;
+  }
+  .links {
+    text-align: center;
+    padding: 0px 50px;
+  }
+}
+
+#underline {
+  width: 50%;
+  border: 2px solid #00cdac;
+  opacity: 0.75;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Navigation
+
+.home-svgs {
+  width: 500px;
+  height: 500px;
+}
+// Views
+.view-home {
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  h1 {
+    font-family: $fontBold;
+  }
+  h4 {
+    color: $Purple;
+  }
+
+  p {
+    font-family: $fontLight;
+  }
+  .section-landing {
+    min-height: 100vh;
+  }
+
+  .section-features {
+    min-height: 70vh;
+    padding-bottom: 35%;
+    p {
+      word-wrap: break-word;
+    }
+    img {
+      width: 550px;
+      height: 350px;
+    }
+  }
+
+  .section-start {
+    img {
+      width: 700px;
+      height: 400px;
+    }
+    h4 {
+      font-family: $fontBold;
+    }
+  }
+}

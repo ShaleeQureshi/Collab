@@ -1,0 +1,33 @@
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.bottom {
+  position: absolute;
+  top: 80%;
+  transform: translateY(-80%);
+}
+.left {
+  position: absolute;
+  top: 50%;
+  left: 23%;
+  transform: translateX(-23%) translateY(-50%);
+}
+.right {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translateX(-75%) translateY(-50%);
+}
+
+.margin-bottom {
+  display: inline-block;
+  padding-bottom: 2%;
+}
+
+.margin-top {
+  display: inline-block;
+  padding-top: 2%;
+}
